@@ -2,15 +2,13 @@
   text-align: center;
 }
 
-.Kitty {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* .Thought-wheel {
+    animation: Thought-wheel-spin infinite 20s linear;
+  } */
+  /* .Thought {
+    animation: Thought-wheel-spin infinite 20s reverse linear;
+  } */
 }
 
 .App-header {
@@ -27,8 +25,37 @@
 .App-link {
   color: #61dafb;
 }
+.Thinking-kitty {
+  height: 80vmin;
+  width: 50vmin;
+  /* border: 5px solid white; */
+}
 
-@keyframes App-logo-spin {
+.Thinking-kitty * {
+  position: absolute;
+  /* border: 1px solid black; */
+}
+
+.Kitty {
+  height: 50cqmin;
+  left: calc(50vw - 25cqmin);
+  top: calc(40vh - 25cqmin);
+}
+
+.Thought-wheel {
+  width: 70cqmin;
+  height: 70cqmin;
+  left: calc(50cqw - 35cqmin);
+  top: calc(40cqh - 35cqmin);
+  /* border: 2px solid grey; */
+}
+
+.Thought {
+  width: 15cqmin;
+  height: 15cqmin;
+}
+
+@keyframes Thought-wheel-spin {
   from {
     transform: rotate(0deg);
   }

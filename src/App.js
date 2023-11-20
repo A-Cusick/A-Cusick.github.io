@@ -14,10 +14,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div id="thinking-kitty">
-          <img src={kitty} className="Kitty" alt="kitty" />
-          {thoughtIcons.map((thought, i) => {return <img src={thought} className="thought" id={`thought-${i}`} />})}
+      <div className="Thinking-kitty">
+        <img src={kitty} className="Kitty" alt="kitty" />
+        <div className="Thought-wheel">
+          {thoughtIcons.map((thought, i) => {return (
+            <img src={thought} key={`thought-${i}`} className="Thought" style={{
+              transform: `translate(-6cqmin, 30cqmin) rotate(${i * 360/thoughtIcons.length}deg) translateX(35cqmin) rotate(${-i * 360/thoughtIcons.length}deg)`,
+            }}/>
+          )})}
         </div>
+      </div>
         <p>
           Hi! My portfolio is currently under construction :)
         </p>
