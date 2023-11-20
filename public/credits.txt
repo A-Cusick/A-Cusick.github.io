@@ -1,1 +1,8 @@
 <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/math" title="math icons">Math icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/maths" title="maths icons">Maths icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/venn-diagram" title="venn diagram icons">Venn diagram icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/maths" title="maths icons">Maths icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/logistic-regression" title="logistic regression icons">Logistic regression icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/network" title="network icons">Network icons created by Eucalyp - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/syntax" title="syntax icons">Syntax icons created by alfanz - Flaticon</a>

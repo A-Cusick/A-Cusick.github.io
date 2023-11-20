@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+.Kitty {
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #716180;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
