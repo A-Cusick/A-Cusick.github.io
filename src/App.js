@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import kitty from './kitty512.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={kitty} className="Kitty" alt="kitty" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi! My portfolio is currently under construction :)
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/alex-cusick-601797149/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          See my LinkedIn profile
         </a>
       </header>
     </div>
