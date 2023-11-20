@@ -1,14 +1,18 @@
+body {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  /* .Thought-wheel {
+  .Thought-wheel {
     animation: Thought-wheel-spin infinite 20s linear;
-  } */
-  /* .Thought {
+  }
+  .Thought {
     animation: Thought-wheel-spin infinite 20s reverse linear;
-  } */
+  }
 }
 
 .App-header {
@@ -62,4 +66,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  z-index: 1;
 }

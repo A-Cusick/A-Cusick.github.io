@@ -18,9 +18,11 @@ function App() {
         <img src={kitty} className="Kitty" alt="kitty" />
         <div className="Thought-wheel">
           {thoughtIcons.map((thought, i) => {return (
-            <img src={thought} key={`thought-${i}`} className="Thought" style={{
-              transform: `translate(-6cqmin, 30cqmin) rotate(${i * 360/thoughtIcons.length}deg) translateX(35cqmin) rotate(${-i * 360/thoughtIcons.length}deg)`,
-            }}/>
+            <div className="Thought-box" key={i} style={{
+              transform: `rotate(${i * 360/thoughtIcons.length}deg) translateX(40cqmin) rotate(${-i * 360/thoughtIcons.length}deg) translate(27cqmin, 35cqmin)`,
+            }}>
+              <img src={thought} key={`thought-${i}`} className="Thought"/>
+            </div>
           )})}
         </div>
       </div>
