@@ -41,22 +41,26 @@ body {
 }
 
 .Kitty {
-  height: 50cqmin;
-  left: calc(50vw - 25cqmin);
-  top: calc(40vh - 25cqmin);
+  height: 50vmin;
+  left: calc(50vw - 25vmin);
+  top: calc(40vh - 25vmin);
 }
 
 .Thought-wheel {
-  width: 70cqmin;
-  height: 70cqmin;
-  left: calc(50cqw - 35cqmin);
-  top: calc(40cqh - 35cqmin);
-  /* border: 2px solid grey; */
+  width: 30vmin;
+  height: 30vmin;
+  left: calc(50vw - 15vmin);
+  top: calc(40vh - 15vmin);
+  /* border: 2px solid grey;
+  border-radius: 50% 0%; */
 }
 
 .Thought {
-  width: 15cqmin;
-  height: 15cqmin;
+  width: 15vmin;
+  height: 15vmin;
+  left: calc(15vmin - 7.5vmin);
+  top: calc(15vmin - 7.55vmin);
+  border: 1px solid black;
 }
 
 @keyframes Thought-wheel-spin {
