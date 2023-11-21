@@ -60,7 +60,7 @@ body {
   height: 15vmin;
   left: calc(15vmin - 7.5vmin);
   top: calc(15vmin - 7.55vmin);
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 @keyframes Thought-wheel-spin {
@@ -70,8 +70,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
-
-p {
-  z-index: 1;
 }
